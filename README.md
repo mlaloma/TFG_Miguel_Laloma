@@ -1,5 +1,4 @@
 # TFG_Miguel_Laloma
-# TFG_Miguel_Laloma
 
 Este proyecto configura un entorno de desarrollo local para WordPress utilizando Docker y Docker Compose.
 
