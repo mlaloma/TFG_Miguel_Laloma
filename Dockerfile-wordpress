@@ -1,0 +1,20 @@
+# Utiliza la imagen base de WordPress
+FROM wordpress:latest
+
+# Copia los archivos de WordPress desde tu directorio local al contenedor
+COPY ./wordpress /var/www/html
+
+# Cambia el propietario de los archivos al usuario www-data
+RUN chown -R www-data:www-data /var/www/html
+
+# Establece el directorio de trabajo
+WORKDIR /var/www/html
+
+# Expone el puerto 80 para que pueda ser accesible desde fuera del contenedor
+#EXPOSE 80
+
+# Define el usuario que ejecutará el contenedor
+USER www-data
+
+# Comando para iniciar WordPress
+CMD ["apache2-foreground"]
