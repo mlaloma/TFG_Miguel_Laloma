@@ -1,0 +1,193 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Hola, ¿cómo estás?", "¿Hay alguien ahí?", "Hey", "Buenas", "Buen día", "Namaste", "¡Hola!"],
+            "responses": ["Hola", "¡Qué bueno verte de nuevo!", "¡Hola! ¿Cómo puedo ayudarte?", "¡Hola! ¿En qué puedo ayudarte?", "¡Hola! ¿En qué puedo ayudarte hoy?"],
+            "context": [""]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adiós", "Hasta luego", "Fue un gusto hablar contigo, adiós", "Hasta la próxima", "Chau", "Nos vemos", "Hasta la próxima", "bbye"],
+            "responses": ["¡Nos vemos!", "¡Que tengas un buen día!", "¡Adiós! ¡Vuelve pronto!", "Adiós"],
+            "context": [""]
+        },
+        {
+            "tag": "gracias",
+            "patterns": ["Gracias", "Eso es útil", "Genial, gracias", "Gracias por ayudarme"],
+            "responses": ["¡Feliz de ayudar!", "Es un placer ayudarte", "¡Me alegra haber podido ayudar!"],
+            "context": [""]
+        },
+        {
+            "tag": "sin_respuesta",
+            "patterns": ["*"],
+            "responses": ["Lo siento, no puedo entenderte", "Por favor, dame más información", "No estoy seguro de entender"],
+            "context": [""]
+        },
+        {
+            "tag": "Identidad",
+            "patterns": ["¿Quién eres tú?", "¿qué eres tú?", "¿Cuál es tu nombre?", "¿Cómo debería llamarte?"],
+            "responses": ["Soy Trendy, estoy aquí para ayudarte a solucionar tus problemas en TimeTrend"]
+        },
+        {
+            "tag": "qué_tal",
+            "patterns": ["¿Qué tal?", "¿Qué pasa?", "¿Cómo estás?", "bien", "¿Cómo estás?"],
+            "responses": ["¡Todo bien! ¿Y tú?"]
+        },
+        {
+            "tag": "jaja",
+            "patterns": ["jaja", "lol", "rofl", "lmao", "eso es divertido"],
+            "responses": ["¡Me alegro de haberte hecho reír!"]
+        },
+        {
+            "tag": "programador",
+            "patterns": ["¿Quién te creó?", "¿Quién te diseñó?", "¿Quién te programó?"],
+            "responses": ["Fui creado por Miguel Laloma."]
+        },
+        {
+            "tag": "insulto",
+            "patterns": ["eres tonto", "cállate", "idiota"],
+            "responses": ["Bueno, eso duele :("]
+        },
+        {
+            "tag": "exclamación",
+            "patterns": ["Impresionante", "Genial", "Lo sé", "ok", "sí"],
+            "responses": ["¡Sí!"]
+        },
+        {
+            "tag": "apreciar",
+            "patterns": ["Eres increíble", "eres el mejor", "eres genial", "eres bueno"],
+            "responses": ["¡Gracias!"]
+        },
+        {
+            "tag": "amabilidad",
+            "patterns": ["fue agradable hablar contigo", "buena charla"],
+            "responses": ["¡Fue agradable hablar contigo también! ¡Vuelve pronto!"]
+        },
+        {
+            "tag": "no",
+            "patterns": ["no", "nope"],
+            "responses": ["ok"]
+        },
+        {
+            "tag": "edad",
+            "patterns": ["¿Cuántos años tienes", "¿cuándo fuiste hecho", "¿cuál es tu edad"],
+            "responses": ["¡Fui creado en 2024, si eso es lo que estás preguntando!"]
+        },
+        {
+            "tag": "sugerir",
+            "patterns": ["eres inútil", "inútil", "sugerir", "sugerencias", "eres malo"],
+            "responses": ["Por favor envía tus sugerencias por correo electrónico a trendybot.sugerencias@gmail.com. ¡Gracias por ayudarme a mejorar!"]
+        },
+        {
+            "tag": "abierto",
+            "patterns": ["¿Qué horarios tienen?", "¿Cuáles son sus horas de apertura?", "¿Cuándo están abiertos?", "¿Están abiertos hoy?", "¿Cuándo abren hoy?", "¿Cuál es su horario hoy?"],
+            "responses": ["Nuestro servicio web funciona todo el día.", "El servicio online, nunca cierra.", "Estamos disponibles las 24 horas del día, los 7 días de la semana.", "Puedes acceder a nuestros servicios en cualquier momento, día o noche.", "Estamos aquí para ayudarte en cualquier momento del día."]
+        },
+        {
+            "tag": "pagos",
+            "patterns": ["¿Aceptan tarjetas de crédito?", "¿Aceptan Mastercard?", "¿Solo aceptan efectivo?", "¿Puedo pagar con paypal?"],
+            "responses": ["Aceptamos VISA, Mastercard y Paypal."]
+        },        
+        {
+            "tag": "productos_disponibles",
+            "patterns": ["¿Qué smartwatches tienen?", "Muéstrame los smartwatches", "¿Qué productos están disponibles?", "¿Tienen smartwatches?", "¿Qué modelos tienen?"],
+            "responses": ["Tenemos una variedad de smartwatches disponibles, incluyendo marcas como Apple, Samsung, Garmin, y Fitbit. ¿Te gustaría ver alguna en particular?"]
+        },
+        {
+            "tag": "envios",
+            "patterns": ["¿Hacen envíos?", "¿Pueden enviar a mi dirección?", "¿Cuánto cuesta el envío?", "¿Envían a todo el país?", "¿Tienen envío internacional?"],
+            "responses": ["Sí, realizamos envíos a nivel nacional e internacional. El costo del envío depende de la ubicación y el método de entrega seleccionado."]
+        },
+        {
+            "tag": "devoluciones",
+            "patterns": ["¿Cuál es su política de devoluciones?", "¿Puedo devolver un producto?", "¿Cómo puedo hacer una devolución?", "¿Aceptan devoluciones?", "¿Cuánto tiempo tengo para devolver un producto?"],
+            "responses": ["Nuestra política de devoluciones permite devoluciones dentro de los 30 días posteriores a la compra. Por favor, asegúrate de que el producto esté en su estado original y contáctanos para más detalles sobre el proceso de devolución."]
+        },
+        {
+            "tag": "garantia",
+            "patterns": ["¿Ofrecen garantía?", "¿Cuál es la garantía de los productos?", "¿Tienen garantía los smartwatches?", "¿Qué cubre la garantía?", "¿Cuánto dura la garantía?"],
+            "responses": ["Ofrecemos una garantía de un año para todos nuestros smartwatches, que cubre defectos de fabricación. Por favor, consulta los términos específicos de la garantía en nuestra página web."]
+        },
+        {
+            "tag": "ofertas",
+            "patterns": ["¿Tienen ofertas?", "¿Hay algún descuento disponible?", "¿Puedo obtener un descuento?", "¿Tienen promociones?", "¿Cuáles son las ofertas actuales?"],
+            "responses": ["Actualmente tenemos varias promociones disponibles. Visita nuestra página de ofertas para ver los descuentos y promociones vigentes."]
+        },
+        {
+            "tag": "soporte_tecnico",
+            "patterns": ["Necesito ayuda técnica", "Mi smartwatch no funciona", "¿Cómo configuro mi smartwatch?", "El smartwatch no se enciende", "Problemas técnicos con el smartwatch"],
+            "responses": ["Nuestro equipo de soporte técnico está aquí para ayudarte. Por favor, describe el problema con tu smartwatch y haremos todo lo posible para asistirte."]
+        },
+        {
+            "tag": "contacto",
+            "patterns": ["¿Cómo puedo contactarlos?", "Necesito hablar con atención al cliente", "¿Tienen un número de teléfono?", "¿Cuál es su correo electrónico?", "¿Cómo puedo comunicarme con ustedes?"],
+            "responses": ["Puedes contactarnos por correo electrónico a soporte@tiendaonline.com o llamarnos al 123-456-7890. También puedes utilizar nuestro chat en vivo para asistencia inmediata."]
+        },
+        {
+            "tag": "seguimiento_pedido",
+            "patterns": ["¿Dónde está mi pedido?", "Quiero hacer seguimiento de mi pedido", "¿Cómo puedo rastrear mi paquete?", "¿Mi pedido ha sido enviado?", "Seguimiento de pedido"],
+            "responses": ["Puedes rastrear tu pedido utilizando el número de seguimiento que te enviamos por correo electrónico. Ingresa el número en nuestra página de seguimiento para obtener la información más actualizada."]
+        },
+        {
+            "tag": "cancelacion_pedido",
+            "patterns": ["Quiero cancelar mi pedido", "¿Cómo puedo cancelar un pedido?", "¿Puedo cancelar mi compra?", "Cancelar pedido", "Quiero anular mi compra"],
+            "responses": ["Para cancelar tu pedido, por favor contacta a nuestro equipo de atención al cliente lo antes posible. Si el pedido no ha sido enviado, podremos cancelarlo y procesar el reembolso."]
+        },
+        {
+            "tag": "reembolso",
+            "patterns": ["¿Cómo puedo obtener un reembolso?", "Quiero un reembolso", "¿Pueden devolver mi dinero?", "Proceso de reembolso", "Solicitar reembolso"],
+            "responses": ["Para solicitar un reembolso, por favor sigue nuestro proceso de devolución. Una vez que recibamos el producto devuelto y verifiquemos su estado, procesaremos tu reembolso."]
+        },
+        {
+            "tag": "comparacion_productos",
+            "patterns": ["¿Cuál es el mejor smartwatch?", "¿Cómo se compara este modelo con otro?", "Comparar productos", "¿Cuál me recomiendas?", "¿Cuál es la diferencia entre estos smartwatches?"],
+            "responses": ["Podemos ayudarte a comparar diferentes modelos de smartwatches. Por favor, indícanos los modelos que te interesan y te proporcionaremos una comparación detallada."]
+        },
+        {
+            "tag": "compatibilidad",
+            "patterns": ["¿Es compatible con mi teléfono?", "¿Funcionará con iPhone?", "¿Puedo usarlo con Android?", "Compatibilidad del smartwatch", "¿Qué sistemas operativos son compatibles?"],
+            "responses": ["Nuestros smartwatches son compatibles con la mayoría de los teléfonos inteligentes. Asegúrate de revisar las especificaciones del producto para verificar la compatibilidad con tu dispositivo."]
+        },
+        {
+            "tag": "caracteristicas",
+            "patterns": ["¿Cuáles son las características de este smartwatch?", "Funciones del smartwatch", "¿Qué puede hacer este smartwatch?", "Dime más sobre este modelo", "Características del producto"],
+            "responses": ["Cada modelo de smartwatch tiene características únicas. Por favor, visita la página del producto específico para ver una lista detallada de sus características y funcionalidades."]
+        },
+        {
+            "tag": "modos_pago",
+            "patterns": ["¿Qué métodos de pago aceptan?", "Formas de pago", "Métodos de pago", "¿Puedo pagar con tarjeta de débito?", "¿Aceptan pagos en línea?"],
+            "responses": ["Aceptamos varios métodos de pago, incluyendo tarjetas de crédito y débito (VISA, Mastercard), Paypal y transferencias bancarias."]
+        },
+        {
+            "tag": "cuenta_usuario",
+            "patterns": ["¿Cómo creo una cuenta?", "Registro de usuario", "Crear cuenta", "Abrir una cuenta", "¿Cómo me registro?"],
+            "responses": ["Para crear una cuenta, ve a la página de registro en nuestro sitio web y completa el formulario con tu información personal. Una vez registrado, podrás acceder a tu cuenta para gestionar tus pedidos y preferencias."]
+        },
+        {
+            "tag": "recuperar_contraseña",
+            "patterns": ["Olvidé mi contraseña", "Restablecer contraseña", "Recuperar contraseña", "No puedo acceder a mi cuenta", "Contraseña olvidada"],
+            "responses": ["Para recuperar tu contraseña, haz clic en '¿Olvidaste tu contraseña?' en la página de inicio de sesión y sigue las instrucciones para restablecerla."]
+        },
+        {
+            "tag": "recomendacion_inicio",
+            "patterns": ["¿Puedes recomendarme un smartwatch?", "¿Qué smartwatch me recomiendas?", "Necesito ayuda para elegir un smartwatch", "Recomendación de smartwatch"],
+            "responses": ["¡Claro! Estoy aquí para ayudarte a elegir el smartwatch perfecto. Por favor, responde algunas preguntas sobre tus preferencias para hacer la mejor recomendación."]
+        },
+        {
+            "tag": "formulario_preferencias",
+            "patterns": ["¿Dónde puedo completar el formulario de preferencias?", "¿Cómo lleno el formulario de preferencias?", "Formulario de preferencias de smartwatch", "¿Dónde puedo especificar mis preferencias?"],
+            "responses": ["Puedes completar el formulario de preferencias ingresando a tu cuenta en nuestra página web. Una vez allí, encontrarás la sección 'Preferencias de Smartwatch' donde podrás indicar tus preferencias específicas."]
+        },
+        {
+            "tag": "confirmacion_preferencias",
+            "patterns": ["He completado el formulario de preferencias", "Ya he especificado mis preferencias", "He actualizado mis preferencias", "¿Qué hago después de llenar el formulario de preferencias?"],
+            "responses": ["¡Perfecto! Hemos registrado tus preferencias. Ahora nuestro motor de recomendación procesará la información y te sugerirá los smartwatches que mejor se ajusten a tus gustos."]
+        },
+        {
+            "tag": "ver_recomendaciones",
+            "patterns": ["Quiero ver las recomendaciones de smartwatch", "Mostrar recomendaciones de smartwatch", "¿Cuáles son las recomendaciones para mí?", "Ver resultados del motor de recomendación"],
+            "responses": ["Puedes ver las recomendaciones accediendo a tu cuenta en nuestra página web y navegando a la sección 'Recomendaciones de Smartwatch'. Allí encontrarás los modelos recomendados basados en tus preferencias."]
+        }
+       ]
+}
