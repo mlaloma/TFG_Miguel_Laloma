@@ -19,18 +19,3 @@ Este proyecto configura un entorno de desarrollo local para WordPress utilizando
 2. Puede acceder al repositorio desde local host Accede a tu sitio de WordPress en tu navegador:
     
     http://localhost:8000
-
-3. Para incorporar la funcionalidad del chatbot deben ejecutarse las siguientes instrucciones:
- 
- Entrenamiento del modelo:
-```
-    make train
-```
- Despliegue del servicio del chatbot:
-```
-    make chatbot
-```
- Opcionalmente puede comprobarse el funcionamiento del modelo antes de desplegarse:
-```
-    make test
-```
