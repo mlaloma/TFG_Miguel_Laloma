@@ -23,8 +23,8 @@ Este proyecto configura un entorno de desarrollo local para WordPress utilizando
 
    *En caso de que el servicio en docker fallara sería posible utilizar el entorno local mediante LocalWP.
     Para acceder al sistema de esta manera, asumiendo la instalación previa de Docker, debe crearse un nuevo sitio local utilizando el archivo TimeTrend.zip
-    [LocalWP](https://localwp.com/help-docs/getting-started/installing-local/)
-    [TimeTrend.zip](https://ceu365-my.sharepoint.com/:u:/g/personal/m_laloma_usp_ceu_es/EZI9TffwdKZOo-9PSKjk3hQB-RMGJS61EktHi0C27BhVFg)
+    - [LocalWP](https://localwp.com/help-docs/getting-started/installing-local/)
+    - [TimeTrend.zip](https://ceu365-my.sharepoint.com/:u:/g/personal/m_laloma_usp_ceu_es/EZI9TffwdKZOo-9PSKjk3hQB-RMGJS61EktHi0C27BhVFg)
 
 3. Para incorporar la funcionalidad del chatbot deben ejecutarse las siguientes instrucciones:
  
