@@ -18,3 +18,6 @@ Este proyecto configura un entorno de desarrollo local para WordPress utilizando
 2. Puede acceder al repositorio desde local host Accede a tu sitio de WordPress en tu navegador:
     
     http://localhost:8000
+
+Adicionalmente es posible acceder a la instancia pública de la web a través del siguiente enlace:
+    https://16.171.142.156/
