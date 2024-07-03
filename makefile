@@ -13,9 +13,8 @@ train: $(VENV)
 test: $(VENV)
     $(PYTHON) $(TEST_FILE)
 
-deploy: $(VENV)
+chatbot: $(VENV)
     $(PYTHON) $(CHATBOT)
-    $ docker-compose up -d
 
 $(VENV):
     python3 -m venv $(VENV)
